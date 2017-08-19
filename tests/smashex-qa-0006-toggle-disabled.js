@@ -48,13 +48,26 @@ module.exports = new Test({
 
 	"Load Google page": function (client) {
 	client
-		.url("http://www.google.com")
-
+		.url("http://http://knowyourmeme.com/memes/you-win-the-internet")
+		.pause(10000)
 	},
+	"Fix the problem in the code below in any way you like": function (client) {
+	client
+		/* if you left thise test suite set to '@disabled': true, you might never catch this defect! */
+		.url("http://rigor.com/wp-content/uploads/2012/07/Screen-Shot-2012-07-13-at-3.43.18-PM1.png")
+		.useXpath().waitForElementPresent("//h1[.='NOTHIN']")
+	},
+	
 	"Go to the Nightwatch documentation": function (client) {
 	client
 		.url("http://nightwatchjs.org/api")
 		.useXpath().waitForElementPresent("//h1[.='API Reference']")
+		.pause(10000)
+	},
+	"Go to the Nightwatch documentation": function (client) {
+	
+	console.log("Now read the fun manual...and good luck with your automated testing!")
+	
 	},
 	
 
