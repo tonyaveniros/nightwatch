@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="smashex-qa-0004-xpath-ex1"
+    errors="0" failures="0" hostname="" id="" package="smashex-qa-0004-xpath-ex1" skipped="0"
+    tests="3" time="31.25" timestamp="Sat, 19 Aug 2017 19:25:12 GMT">
+  
+    <testcase name="Load Google page" time="15.16" assertions="0">
+    </testcase>
+  
+    <testcase name="Use xpath to check for specific list items" time="15.68" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search using google" time="0.4050" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

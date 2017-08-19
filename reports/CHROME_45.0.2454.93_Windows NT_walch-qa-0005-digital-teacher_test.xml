@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="35">
+
+  <testsuite name="walch-qa-0005-digital-teacher_test"
+    errors="0" failures="1" hostname="" id="" package="walch-qa-0005-digital-teacher_test" skipped="15"
+    tests="35" time="134.1" timestamp="Thu, 31 Mar 2016 04:53:27 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="11.58" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify ability to open My Resources" time="6.981" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Test Generator appears" time="0.8820" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click Next, Verify Add New Learning Resource dialog appears" time="3.318" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="- some other steps go here as or if this evolves -" time="5.005" assertions="0">
+    </testcase>
+  
+    <testcase name="Confirm Create New Assessment Wizard has loaded" time="3.223" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify the&#39;Create a test based on Common Core State Standards.&#39; radio button" time="0.9190" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify the &#39;Create a new test based on curriculum materials.&#39; radio button" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Check for preview pane message" time="0.9550" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill out step 1 of the Create New Assessment Wizard form" time="3.042" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify n/50 characters for test name" time="1.116" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify n/50 characters for description" time="0.9510" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify navigation from step 1 to step 2" time="0.5050" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Confirm contents of Preview panel" time="2.227" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Create a new test based on curriculum materials. (currently not implemented)" time="0.001000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Test Topics has expected elements:" time="1.926" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify “Choose topics by standard” works by choosing a subject, a level and a domain" time="11.64" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Check boxes" time="14.77" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Preview sidebar updates" time="0.3360" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Next, verify Test Topics loads" time="64.69" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Selector &#39;.item-topic&#39; was not visible after 60094 milliseconds.">Selector &#39;.item-topic&#39; was not visible after 60094 milliseconds.: Selector &#39;.item-topic&#39; was not visible after 60094 milliseconds. - Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.CheckVisibleAndDo.fail (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/testarmada-magellan-nightwatch/lib/commands/lib/checkVisibleAndDo.js:117:15)
+    at F.&lt;anonymous&gt; (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/testarmada-magellan-nightwatch/lib/commands/getEl.js:45:14)
+    at Object.&lt;anonymous&gt; (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/testarmada-magellan-nightwatch/lib/commands/lib/checkVisibleAndDo.js:86:16)
+    at HttpRequest.&lt;anonymous&gt; (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/index.js:333:20)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/index.js:361:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/http/request.js:155:16)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Choose types and quantities to include">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview works">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Select Items / Test Items age of wizard">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Settings">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to Finish creating an assessment">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify existence of assessment by explicitly deleting it">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify “Choose a subject, a level and a domain, then choose which standards you wish to cover by checking the box next to the appropiate standards.” (currently this is misspelled)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="// at some point randomization or testing of each possible value here would make sense, today Mathematics only)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Subject selector by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Level by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Domain by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to select all/each topic">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview panel is updated">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to deselect some topics ( 1 random from count)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, verify Item Types loads">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

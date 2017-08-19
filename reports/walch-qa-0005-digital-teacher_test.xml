@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="35">
+
+  <testsuite name="walch-qa-0005-digital-teacher_test"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0005-digital-teacher_test" skipped="35"
+    tests="35" time="0.000" timestamp="Mon, 29 Aug 2016 17:55:31 GMT">
+  
+  
+    
+    <testcase
+      name="Load Walch QA Login page and login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to open My Resources">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Generator appears">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, Verify Add New Learning Resource dialog appears">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="- some other steps go here as or if this evolves -">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm Create New Assessment Wizard has loaded">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the&#39;Create a test based on Common Core State Standards.&#39; radio button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the &#39;Create a new test based on curriculum materials.&#39; radio button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check for preview pane message">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Fill out step 1 of the Create New Assessment Wizard form">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify n/50 characters for test name">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify n/50 characters for description">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify navigation from step 1 to step 2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm contents of Preview panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create a new test based on curriculum materials. (currently not implemented)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Topics has expected elements:">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify “Choose topics by standard” works by choosing a subject, a level and a domain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Check boxes">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Preview sidebar updates">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, verify Test Topics loads">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Choose types and quantities to include">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview works">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Select Items / Test Items age of wizard">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Settings">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to Finish creating an assessment">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify existence of assessment by explicitly deleting it">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify “Choose a subject, a level and a domain, then choose which standards you wish to cover by checking the box next to the appropiate standards.” (currently this is misspelled)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="// at some point randomization or testing of each possible value here would make sense, today Mathematics only)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Subject selector by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Level by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Domain by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to select all/each topic">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview panel is updated">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to deselect some topics ( 1 random from count)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, verify Item Types loads">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="11">
+
+  <testsuite name="walch-qa-0006-make-take-assigns"
+    errors="0" failures="1" hostname="" id="" package="walch-qa-0006-make-take-assigns" skipped="7"
+    tests="11" time="18.98" timestamp="Thu, 23 Jun 2016 18:08:32 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.545" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Create a class" time="4.265" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add a student to the class" time="2.595" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify ability to open My Resources" time="7.570" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//td[contains(text(),&#39;Sample Practice Test For Automation&#39;)]&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Test.Verify ability to open My Resources (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/tests/walch-qa-0006-make-take-assigns.js:92:15)
+    at Object.steps.(anonymous function) (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/testarmada-magellan-nightwatch/lib/selenium-session-acquisition-wrapper.js:26:22)
+    at Module.call (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:125:13)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Assign a Practice Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Assign a Scored Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log out teacher then log back in">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Assign an assignment to a student">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log out teacher">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log in as a student with an assignment">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Take Assignment">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

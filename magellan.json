@@ -1,0 +1,127 @@
+{
+	"profiles": {
+		"my_local_browsers": [
+		  { "browser": "chrome" },
+		  { "browser": "firefox" }
+  
+		],
+		"SMOKE": [
+		  { "browser": "chrome_46_OS_X_10_10_Desktop" },
+		  { "browser": "firefox_42_Windows_2012_R2_Desktop" } 
+		],
+		
+		"MANY": [
+		  { "browser": "safari_8_OS_X_10_10_Desktop" },
+		  { "browser": "safari_7_OS_X_10_9_Desktop" }, 
+		  { "browser": "safari_9_OS_X_10_11_Desktop" }, 
+		  { "browser": "IE_10_Windows_2012_Desktop" }, 
+		  { "browser": "IE_11_Windows_2012_R2_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_10_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_11_Desktop" },
+		  { "browser": "chrome_46_OS_X_10_10_Desktop" }, 
+		  { "browser": "chrome_45_Windows_10_Desktop" },
+		  { "browser": "chrome_45_Windows_2003_Desktop" },
+		  { "browser": "chrome_45_Windows_2008_Desktop" },
+		  { "browser": "chrome_45_Windows_2012_Desktop" },
+		  { "browser": "chrome_45_Windows_2012_R2_Desktop" },
+		  { "browser": "chrome_46_Windows_10_Desktop" },
+		  { "browser": "chrome_46_Windows_2003_Desktop" },
+		  { "browser": "chrome_46_Windows_2008_Desktop" },
+		  { "browser": "chrome_46_Windows_2012_Desktop" },
+		  { "browser": "chrome_46_Windows_2012_R2_Desktop" }, 
+		  { "browser": "firefox_42_OS_X_10_9_Desktop" }, 
+		  { "browser": "firefox_42_Windows_2012_R2_Desktop" },
+		  { "browser": "android_4_4_Linux_Samsung_Galaxy_S4_Emulator", "orientation": "landscape" },
+		  { "browser": "ipad_9_0_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "landscape"}
+
+		],
+		
+		"FULL": [
+		  { "browser": "safari_8_OS_X_10_10_Desktop" },
+		  { "browser": "safari_7_OS_X_10_9_Desktop" }, 
+		  { "browser": "safari_9_OS_X_10_11_Desktop" }, 
+		  { "browser": "IE_10_Windows_2012_Desktop" }, 
+		  { "browser": "IE_11_Windows_2012_R2_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_8_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_9_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_10_Desktop" },
+		  { "browser": "chrome_45_OS_X_10_11_Desktop" },
+		  { "browser": "chrome_46_OS_X_10_10_Desktop" }, 
+		  { "browser": "chrome_45_Windows_10_Desktop" },
+		  { "browser": "chrome_45_Windows_2003_Desktop" },
+		  { "browser": "chrome_45_Windows_2008_Desktop" },
+		  { "browser": "chrome_45_Windows_2012_Desktop" },
+		  { "browser": "chrome_45_Windows_2012_R2_Desktop" },
+		  { "browser": "chrome_46_Windows_10_Desktop" },
+		  { "browser": "chrome_46_Windows_2003_Desktop" },
+		  { "browser": "chrome_46_Windows_2008_Desktop" },
+		  { "browser": "chrome_46_Windows_2012_Desktop" },
+		  { "browser": "chrome_46_Windows_2012_R2_Desktop" }, 
+		  { "browser": "firefox_42_OS_X_10_9_Desktop" }, 
+		  { "browser": "firefox_42_Windows_2012_R2_Desktop" },
+		  { "browser": "android_4_4_Linux_Samsung_Galaxy_S4_Emulator", "orientation": "landscape" },
+		  { "browser": "ipad_8_4_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_8_4_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_0_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "iphone_9_1_iOS_iPhone_Simulator", "orientation": "landscape"}
+
+		],
+		"resoponsive_browsers_remote_SauceLabs": [
+		  { "browser": "chrome_46_Windows_2012_R2_Desktop", "resolution": "1024x768" },
+		  { "browser": "chrome_46_Windows_2012_R2_Desktop", "resolution": "800x600"	},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "portrait"}  
+		],
+		"iOS_browsers_remote_SauceLabs": [
+		  { "browser": "ipad_8_4_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_8_4_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_0_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_0_iOS_iPad_Simulator", "orientation": "portrait"},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "landscape"},
+		  { "browser": "ipad_9_1_iOS_iPad_Simulator", "orientation": "portrait"},
+		  { "browser": "iphone_9_1_iOS_iPhone_Simulator", "orientation": "portrait"},
+		  { "browser": "iphone_9_1_iOS_iPhone_Simulator", "orientation": "landscape"}
+
+		],
+		"tablets": [
+		  { "browserName":"Safari", "appiumVersion": "1.4.14", "recordVideo": "false", "recordScreenshots": "false", "deviceName": "iPad Retina", "deviceOrientation": "portrait", "platformVersion": "9.1", "platformName": "iOS" }   
+		],
+		"phones": [
+		  {}
+		],
+		"smokeTest": [
+		  { "browser": "IE_11_Windows_2012_R2_Desktop", "screenResolution": "1024x768" }, 
+		  { "browser": "firefox_42_OS_X_10_9_Desktop" }, 
+		  { "browser": "firefox_42_Windows_2012_R2_Desktop" },
+		  { "browser": "chrome_46_OS_X_10_10_Desktop" }, 
+		  { "browser": "chrome_46_Windows_2012_R2_Desktop" }
+		],
+		"minimum": [
+		  { "browser": "chrome_46_OS_X_10_10_Desktop" }, 
+		  { "browser": "firefox_42_OS_X_10_9_Desktop" },
+		  { "browser": "firefox_42_Windows_2012_R2_Desktop"},
+		  { "browser": "chrome_46_Windows_10_Desktop"},
+		  { "browser": "chrome_46_Windows_2012_Desktop"}
+		],
+		"regress": [
+		  { "browser": "android_4_4_Linux_Samsung_Galaxy_S4_Emulator", "orientation": "portrait", "appiumVersion": "1.4.16"},
+		  { "browser": "iphone_9_1_iOS_iPhone_Simulator", "orientation": "portrait", "appiumVersion": "1.4.16"}
+
+		],
+		"safari": [  
+		  { "browser": "safari_7_OS_X_10_9_Desktop"},
+		  { "browser": "safari_8_OS_X_10_10_Desktop"},
+		  { "browser": "safari_9_OS_X_10_11_Desktop"},
+		  { "browser": "IE_10_Windows_2012_Desktop"},
+		  { "browser": "IE_11_Windows_2012_R2_Desktop"}
+		],	
+		"oneOff": [
+		  { "browser": "IE_11_Windows_2012_R2_Desktop", "screenResolution": "1024x768" }
+		]
+		
+		}
+}
+
+

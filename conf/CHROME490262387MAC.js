@@ -1,0 +1,1 @@
+module.exports = {"default" : {},"test_env" : { myGlobal: {"fname":"ChocolateDT8JH","lname":"MilkyDT8JH","uname":"AutomationDT8JH","email":"aveniros+DT8JH@mailinator.com","password":"demo","clasname":"Automation 03/18/2016"}}};

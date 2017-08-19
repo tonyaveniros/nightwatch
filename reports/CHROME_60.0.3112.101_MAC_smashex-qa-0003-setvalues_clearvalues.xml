@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="smashex-qa-0003-setvalues_clearvalues"
+    errors="0" failures="0" hostname="" id="" package="smashex-qa-0003-setvalues_clearvalues" skipped="0"
+    tests="3" time="17.18" timestamp="Sat, 19 Aug 2017 19:24:45 GMT">
+  
+    <testcase name="Load Google page" time="11.75" assertions="0">
+    </testcase>
+  
+    <testcase name="Check for input field at google" time="5.170" assertions="0">
+    </testcase>
+  
+    <testcase name="Search using google" time="0.2540" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="walch-qa-0001-assessment-teacher"
+    errors="0" failures="1" hostname="" id="" package="walch-qa-0001-assessment-teacher" skipped="3"
+    tests="6" time="28.17" timestamp="Tue, 08 Aug 2017 16:43:45 GMT">
+  
+    <testcase name="Load Walch QA Login page" time="19.27" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check teacher dash" time="2.076" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Teacher clicks Assessments tab" time="6.824" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;body &gt; div:nth-child(2) &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(6) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-search.testAction.ng-scope&gt; to be present for 5000 milliseconds.">    at Object.Teacher clicks Assessments tab (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/tests/walch-qa-0001-assessment-teacher.js:132:13)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Teacher clicks Reports tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks My Assignements tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Manage tab">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

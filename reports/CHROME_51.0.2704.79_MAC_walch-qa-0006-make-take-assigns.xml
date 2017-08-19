@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="11">
+
+  <testsuite name="walch-qa-0006-make-take-assigns"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0006-make-take-assigns" skipped="0"
+    tests="11" time="70.45" timestamp="Tue, 07 Jun 2016 16:28:07 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.594" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Create a class" time="4.537" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add a student to the class" time="2.657" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify ability to open My Resources" time="2.396" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Assign a Practice Test" time="9.935" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Assign a Scored Test" time="12.07" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Log out teacher then log back in" time="1.700" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Assign an assignment to a student" time="21.49" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Log out teacher" time="1.801" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Log in as a student with an assignment" time="4.189" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Take Assignment" time="5.080" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="10">
+
+  <testsuite name="walch-qa-0006-make-take-assigns"
+    errors="2" failures="1" hostname="" id="" package="walch-qa-0006-make-take-assigns" skipped="7"
+    tests="10" time="67.46" timestamp="Thu, 21 Apr 2016 21:02:41 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="3.425" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.icon-content-white&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Create a class" time="2.226" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.icon-content-white&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Add a student to the class" time="61.81" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;select[name=&#39;enrollClass&#39;]&gt; to be present for 60000 milliseconds.">    at Object.exports.command (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/lib/custom_commands/createStudent.js:10:13)
+    at Object.F.command (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:159:30)
+    at AsyncTree.runChildNode (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:119:8)
+    at AsyncTree.walkDown (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:85:10)
+    at AsyncTree.walkUp (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:102:8)
+    at AsyncTree.walkDown (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:95:12)
+    at AsyncTree.traverse (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:73:10)
+    at F.onCommandComplete (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:136:12)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;.icon-content-white&quot; using: css selector
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Verify ability to open My Resources">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Assign a Practice Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Assign a Scored Test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log out teacher then log back in">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Assign an assignment to a student">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log out teacher">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log in as a student with an assignment">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

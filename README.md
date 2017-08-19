@@ -1,52 +1,92 @@
-# Nightwatch
+<<<<<<< HEAD
+## Magellan / Nightwatch.js Example Project
 
-UI automated testing framework powered by [Node.js](http://nodejs.org/). It uses the [Selenium WebDriver API](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol).
+This is an example project demonstrating how to run Nightwatch.js tests with Magellan. To create a new suite, make a clone of this project into your own by following the installation example instructions below.
 
-[![Build Status](https://travis-ci.org/nightwatchjs/nightwatch.svg?branch=master)](https://travis-ci.org/nightwatchjs/nightwatch) [![NPM version](https://badge.fury.io/js/nightwatch.png)](http://badge.fury.io/js/nightwatch) [![Coverage Status](https://coveralls.io/repos/nightwatchjs/nightwatch/badge.svg?branch=master&service=github)](https://coveralls.io/github/nightwatchjs/nightwatch?branch=master)
+The contents of this project's root directory should become the root directory of your Magellan test suite folder (for example a `./automation` folder in your project).
 
-***
+What's in the Box
+=================
 
-#### [Homepage](http://nightwatchjs.org) | [Getting Started](http://nightwatchjs.org/gettingstarted) | [Developer Guide](http://nightwatchjs.org/guide) | [API Reference](http://nightwatchjs.org/api) | [Changelog](https://github.com/nightwatchjs/nightwatch/releases)
+Included in this boilerplate:
 
-### Selenium WebDriver standalone server
-Nightwatch works with the Selenium standalone server so the first thing you need to do is download the selenium server jar file `selenium-server-standalone-2.x.x.jar` from the Selenium releases page:
-**https://selenium-release.storage.googleapis.com/index.html**
+  - Example base class for tests (`lib/example-base-test-class.js`)
+  - Example tests which use the example base class (`tests/*`)
+  - A `.gitignore` file which ignores Magellan-generated artifacts (logs, etc)
+  - Stock configuration (`conf/nightwatch.json`)
+  - A place to put custom commands (`lib/custom_commands`)
 
-### Install Nightwatch
+Prerequisites
+====================
 
-Install Node.js and then:
-```sh
-$ git clone https://github.com/nightwatchjs/nightwatch.git
-$ cd nightwatch
-$ npm install
+Check that you have at least `npm` version 2.7.1:
+
+```
+npm --version
 ```
 
-### Run tests
-The tests for Nightwatch are written using [Mocha](http://mochajs.org/) exports interface so they can also be run with Nightwatch itself.
+If not, run:
 
-To run the unit tests using mocha, do:
-
-```sh
-$ npm test
+```
+npm install -g npm
 ```
 
-To run the unit tests using Nightwatch, do:
+Installation Example
+====================
 
-```sh
-$ npm run unit-tests
+**1.** Clone `magellan-boilerplate` into an isolated place outside of your project:
+
+```console
+cd ~
+git clone git@github.com:TestArmada/boilerplate.git
 ```
 
-To check test coverage, run the command:
+**2.** Copy the contents of `boilerplate` into your project test folder, remove `.git`
 
-```sh
-$ npm run mocha-coverage
+```console
+cd ~/myproject
+mkdir automated-tests
+cd automated-tests
+cp -R ~/boilerplate ./
+rm -rf .git
 ```
-and then open the generate file _coverage.html_ in your browser.
 
-### Discuss
-The [Mailing List/Google Group](https://groups.google.com/forum/#!forum/nightwatchjs) is the most appropriate tool for Nightwatch related discussions. In addition, there is a [StackOverflow Nightwatch.js tag](http://stackoverflow.com/questions/tagged/nightwatch.js) at your disposal and [Twitter](https://twitter.com/nightwatchjs).
+**3.** Install npm modules and run example tests
 
-### Setup Guides
-Specific WebDriver setup guides can be found on the [Docs website](http://nightwatchjs.org/gettingstarted/#browser-drivers-setup). 
-Legacy Selenium drivers setup guides along with debugging instructions can be found on the [**Wiki**](https://github.com/nightwatchjs/nightwatch/wiki).
+```console
+npm install
+npm test
+```
 
+**4.** Try the testing workflow
+
+To run the tests included in this boiler plate, simply type:
+```console
+./node_modules/.bin/magellan --serial
+```
+
+If you already have `./node_modules/.bin` in your `PATH`, you can simply type this instead:
+```console
+magellan --serial
+```
+without `./` or any path prefix.
+
+In the above example, the `--serial` option runs all of your tests one at a time with live output. To get help on command options, type:
+```console
+magellan --help
+```
+
+For more information on how to run tests, including in different browsers, in parallel, and with filters and tags, see: https://github.com/TestArmada/magellan
+
+**5.** Modify example tests and base class
+
+To start developing your own tests, look at `tests/*` and `lib/example-base-test-class.js`.
+
+Notes
+=====
+
+  - Magellan may support multiple test frameworks, but this boilerplate is based on Nightwatch.js (by using the `magellan-nightwatch` adapter).
+  - This boilerplate project is suitable for use with tests that run against a live server, a QA server, or even a mock (i.e. any use case Magellan supports).
+=======
+# bower-tutti-edu
+>>>>>>> fad23142c835be203f6a247d6f700425196e42cd

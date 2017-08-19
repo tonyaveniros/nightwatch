@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="35">
+
+  <testsuite name="walch-qa-0004-digital-teacher"
+    errors="2" failures="1" hostname="" id="" package="walch-qa-0004-digital-teacher" skipped="32"
+    tests="35" time="34.93" timestamp="Thu, 31 Mar 2016 04:30:00 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="24.25" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;#abb_AddResource&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Verify ability to open My Resources" time="5.396" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;#abb_AddResource&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Verify Test Generator appears" time="5.278" assertions="1">  <failure message="Timed out while waiting for element &lt;#ctype_test&gt; to be visible for 5000 milliseconds.">    at Object.module.exports.Test.Verify Test Generator appears (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/tests/walch-qa-0004-digital-teacher.js:75:4)
+    at Object.steps.(anonymous function) (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/testarmada-magellan-nightwatch/lib/selenium-session-acquisition-wrapper.js:26:22)
+    at Module.call (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/node_modules/q/q.js:125:13)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;#abb_AddResource&quot; using: css selector
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Click Next, Verify Add New Learning Resource dialog appears">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="- some other steps go here as or if this evolves -">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm Create New Assessment Wizard has loaded">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the&#39;Create a test based on Common Core State Standards.&#39; radio button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify the &#39;Create a new test based on curriculum materials.&#39; radio button">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check for preview pane message">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Fill out step 1 of the Create New Assessment Wizard form">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify n/50 characters for test name">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify n/50 characters for description">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify navigation from step 1 to step 2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm contents of Preview panel">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create a new test based on curriculum materials. (currently not implemented)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Topics has expected elements:">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify “Choose topics by standard” works by choosing a subject, a level and a domain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Check boxes">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Preview sidebar updates">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, verify Test Topics loads">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Choose types and quantities to include">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview works">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Select Items / Test Items age of wizard">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Test Settings">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to Finish creating an assessment">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify existence of assessment by explicitly deleting it">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="verify “Choose a subject, a level and a domain, then choose which standards you wish to cover by checking the box next to the appropiate standards.” (currently this is misspelled)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="// at some point randomization or testing of each possible value here would make sense, today Mathematics only)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Subject selector by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Level by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify Domain by making a selection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to select all/each topic">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify preview panel is updated">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify ability to deselect some topics ( 1 random from count)">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click Next, verify Item Types loads">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

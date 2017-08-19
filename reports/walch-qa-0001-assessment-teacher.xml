@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="walch-qa-0001-assessment-teacher"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0001-assessment-teacher" skipped="6"
+    tests="6" time="0.000" timestamp="Mon, 29 Aug 2016 18:04:05 GMT">
+  
+  
+    
+    <testcase
+      name="Load Walch QA Login page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check teacher dash">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Assessments tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Reports tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks My Assignements tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Manage tab">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

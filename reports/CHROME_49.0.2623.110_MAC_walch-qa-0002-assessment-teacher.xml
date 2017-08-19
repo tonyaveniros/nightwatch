@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="5">
+
+  <testsuite name="walch-qa-0002-assessment-teacher"
+    errors="3" failures="1" hostname="" id="" package="walch-qa-0002-assessment-teacher" skipped="2"
+    tests="5" time="68.88" timestamp="Mon, 11 Apr 2016 17:36:51 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.061" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div &gt; div &gt; div &gt; md-tabs &gt; md-tabs-wrapper &gt; md-tabs-canvas &gt; md-pagination-wrapper &gt; md-tab-item:nth-child(2) &gt; span&quot; using: css selector
+ ERROR: Unable to locate element: &quot;//html/body/div/div/div/md-content/div/div/div/md-toolbar/button/div[1]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="Teacher begins functional tests of Manage: Creating a class" time="3.466" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div &gt; div &gt; div &gt; md-tabs &gt; md-tabs-wrapper &gt; md-tabs-canvas &gt; md-pagination-wrapper &gt; md-tab-item:nth-child(2) &gt; span&quot; using: css selector
+ ERROR: Unable to locate element: &quot;//html/body/div/div/div/md-content/div/div/div/md-toolbar/button/div[1]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="Teacher continues functional tests of Manage: Creating a student" time="61.35" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;select[name=&#39;enrollClass&#39;]&gt; to be present for 60000 milliseconds.">    at Object.exports.command (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/lib/custom_commands/createStudent.js:9:13)
+    at Object.F.command (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:159:30)
+    at AsyncTree.runChildNode (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:119:8)
+    at AsyncTree.walkDown (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:85:10)
+    at AsyncTree.walkUp (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:102:8)
+    at AsyncTree.walkDown (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:95:12)
+    at AsyncTree.traverse (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:73:10)
+    at F.onCommandComplete (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/boilerplate/node_modules/nightwatch/lib/core/queue.js:136:12)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div &gt; div &gt; div &gt; md-tabs &gt; md-tabs-wrapper &gt; md-tabs-canvas &gt; md-pagination-wrapper &gt; md-tab-item:nth-child(2) &gt; span&quot; using: css selector
+ ERROR: Unable to locate element: &quot;//html/body/div/div/div/md-content/div/div/div/md-toolbar/button/div[1]&quot; using: xpath
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Save student&#39;s data to a file for later use">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="because">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

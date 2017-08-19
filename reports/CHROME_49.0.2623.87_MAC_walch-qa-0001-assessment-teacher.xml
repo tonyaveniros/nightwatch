@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="walch-qa-0001-assessment-teacher"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0001-assessment-teacher" skipped="0"
+    tests="6" time="17.97" timestamp="Wed, 30 Mar 2016 16:31:16 GMT">
+  
+    <testcase name="Load Walch QA Login page" time="4.161" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check teacher dash" time="5.384" assertions="28">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Teacher clicks Assessments tab" time="4.021" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Teacher clicks Reports tab" time="2.079" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Teacher clicks My Assignements tab" time="0.8420" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Teacher clicks Manage tab" time="1.485" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

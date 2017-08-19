@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="11">
+
+  <testsuite name="walch-qa-0006-make-take-assigns"
+    errors="2" failures="1" hostname="" id="" package="walch-qa-0006-make-take-assigns" skipped="3"
+    tests="11" time="63.96" timestamp="Tue, 20 Sep 2016 19:26:56 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.606" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Create a class" time="4.278" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Add a student to the class" time="2.194" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Verify ability to open My Resources" time="2.347" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Assign a Practice Test" time="9.873" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Assign a Scored Test" time="12.06" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Log out teacher then log back in" time="2.257" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Assign an assignment to a student" time="26.34" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//div[contains(text(), &#39;CCGPS Advanced Algebra Unit 1 Assessment&#39;)]&gt; to be present for 10000 milliseconds.">    at Object.module.exports.Test.Assign an assignment to a student (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/tests/walch-qa-0006-make-take-assigns.js:183:15)
+    at Object.steps.(anonymous function) (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/testarmada-magellan-nightwatch/lib/selenium-session-acquisition-wrapper.js:26:22)
+    at Module.call (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:125:13)</failure>
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;body &gt; div.layout-column.flex &gt; div &gt; div &gt; div &gt; div &gt; div:nth-child(2) &gt; md-content &gt; div &gt; div.ngViewport.ng-scope &gt; div &gt; div:nth-child(1) &gt; div.ngCell.col0.colt0 &gt; div:nth-child(2) &gt; div &gt; span.fa.fa-send-o.clickable-div.ng-scope&quot; using: css selector
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Log out teacher">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Log in as a student with an assignment">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Take Assignment">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

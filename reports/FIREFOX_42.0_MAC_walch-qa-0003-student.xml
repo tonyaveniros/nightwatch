@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="walch-qa-0003-student"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0003-student" skipped="0"
+    tests="2" time="37.66" timestamp="Thu, 31 Mar 2016 04:26:50 GMT">
+  
+    <testcase name="Load Walch QA Login page again" time="36.22" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify default state of student dash" time="1.433" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

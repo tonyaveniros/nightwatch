@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="5">
+
+  <testsuite name="walch-qa-0002-assessment-teacher"
+    errors="2" failures="0" hostname="" id="" package="walch-qa-0002-assessment-teacher" skipped="0"
+    tests="5" time="13.59" timestamp="Tue, 10 May 2016 20:26:02 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.071" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;option[label=&#39;Automation 05/10/2016&#39;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Teacher begins functional tests of Manage: Creating a class" time="4.863" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;option[label=&#39;Automation 05/10/2016&#39;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Teacher continues functional tests of Manage: Creating a student" time="4.647" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;option[label=&#39;Automation 05/10/2016&#39;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="Save student&#39;s data to a file for later use" time="0.001000" assertions="0">
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;option[label=&#39;Automation 05/10/2016&#39;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="because" time="0.004000" assertions="0">
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;option[label=&#39;Automation 05/10/2016&#39;]&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="walch-qa-0001-assessment-teacher"
+    errors="0" failures="1" hostname="" id="" package="walch-qa-0001-assessment-teacher" skipped="4"
+    tests="6" time="13.82" timestamp="Tue, 13 Sep 2016 21:27:00 GMT">
+  
+    <testcase name="Load Walch QA Login page" time="4.953" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check teacher dash" time="8.863" assertions="1">  <failure message="Timed out while waiting for element &lt;body &gt; div:nth-child(1) &gt; md-toolbar &gt; div &gt; a &gt; div&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Test.Check teacher dash (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/tests/walch-qa-0001-assessment-teacher.js:59:4)
+    at Object.steps.(anonymous function) (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/testarmada-magellan-nightwatch/lib/selenium-session-acquisition-wrapper.js:26:22)
+    at Module.call (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/lib/runner/testcase.js:97:29
+    at _fulfilled (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/anthonybeck/Documents/Aveniros/githubs/Tutti-QA/walch_boilerplate/node_modules/nightwatch/node_modules/q/q.js:125:13)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Teacher clicks Assessments tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Reports tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks My Assignements tab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Teacher clicks Manage tab">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

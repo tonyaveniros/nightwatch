@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="smashex-qa-0006-toggle-disabled"
+    errors="0" failures="0" hostname="" id="" package="smashex-qa-0006-toggle-disabled" skipped="2"
+    tests="2" time="0.000" timestamp="Sat, 19 Aug 2017 19:26:08 GMT">
+  
+  
+    
+    <testcase
+      name="Load Google page">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go to the Nightwatch documentation">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

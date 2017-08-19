@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="smashex-qa-0002-weather-ex2"
+    errors="0" failures="1" hostname="" id="" package="smashex-qa-0002-weather-ex2" skipped="1"
+    tests="3" time="8.092" timestamp="Fri, 18 Aug 2017 06:25:57 GMT">
+  
+    <testcase name="Load URL page" time="2.314" assertions="0">
+    </testcase>
+  
+    <testcase name="Check for input field" time="5.778" assertions="1">  <failure message="Timed out while waiting for element &lt;#findcity &gt; input:nth-of-type(2)&gt; to be present for 5000 milliseconds.">    at Object.Check for input field (/Users/anthonybeck/Documents/Smashing/nightwatch/tests/smashex-qa-0002-weather-ex2.js:62:13)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Search using google">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

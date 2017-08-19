@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="35">
+
+  <testsuite name="walch-qa-0004-digital-teacher"
+    errors="0" failures="0" hostname="" id="" package="walch-qa-0004-digital-teacher" skipped="0"
+    tests="35" time="45.66" timestamp="Wed, 01 Jun 2016 18:12:18 GMT">
+  
+    <testcase name="Load Walch QA Login page and login" time="4.422" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify ability to open My Resources" time="6.911" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Test Generator appears" time="0.6120" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click Next, Verify Add New Learning Resource dialog appears" time="0.1470" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="- some other steps go here as or if this evolves -" time="5.005" assertions="0">
+    </testcase>
+  
+    <testcase name="Confirm Create New Assessment Wizard has loaded" time="0.6450" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify the&#39;Create a test based on Common Core State Standards.&#39; radio button" time="0.2740" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify the &#39;Create a new test based on curriculum materials.&#39; radio button" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Check for preview pane message" time="0.2520" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Fill out step 1 of the Create New Assessment Wizard form" time="1.081" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify n/50 characters for test name" time="0.2500" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify n/50 characters for description" time="0.2680" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify navigation from step 1 to step 2" time="0.07800" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Confirm contents of Preview panel" time="0.5540" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Create a new test based on curriculum materials. (currently not implemented)" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Test Topics has expected elements:" time="0.5340" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify “Choose topics by standard” works by choosing a subject, a level and a domain" time="7.317" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Check boxes" time="5.458" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Preview sidebar updates" time="0.05400" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Next, verify Test Topics loads" time="4.069" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Choose types and quantities to include" time="2.314" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify preview works" time="0.07500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify Select Items / Test Items age of wizard" time="0.3240" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Test Settings" time="0.5150" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify ability to Finish creating an assessment" time="0.1030" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify existence of assessment by explicitly deleting it" time="4.372" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify “Choose a subject, a level and a domain, then choose which standards you wish to cover by checking the box next to the appropiate standards.” (currently this is misspelled)" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="// at some point randomization or testing of each possible value here would make sense, today Mathematics only)" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Subject selector by making a selection" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Level by making a selection" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify Domain by making a selection" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify ability to select all/each topic" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify preview panel is updated" time="0.001000" assertions="0">
+    </testcase>
+  
+    <testcase name="Verify ability to deselect some topics ( 1 random from count)" time="0.002000" assertions="0">
+    </testcase>
+  
+    <testcase name="Click Next, verify Item Types loads" time="0.002000" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
