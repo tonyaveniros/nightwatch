@@ -88,5 +88,3 @@ Notes
   - Magellan may support multiple test frameworks, but this boilerplate is based on Nightwatch.js (by using the `magellan-nightwatch` adapter).
   - This boilerplate project is suitable for use with tests that run against a live server, a QA server, or even a mock (i.e. any use case Magellan supports).
 =======
-# bower-tutti-edu
->>>>>>> fad23142c835be203f6a247d6f700425196e42cd

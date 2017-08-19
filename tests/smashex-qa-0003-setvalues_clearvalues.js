@@ -1,5 +1,5 @@
 /*
-	Author: Anthony Beck - Aveniros, LLC.
+	Author: Anthony Beck
 	Project: Smashing
 	Client: Smashing
 
