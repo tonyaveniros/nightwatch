@@ -67,7 +67,7 @@ module.exports = new Test({
 	
 	"Search using google": function (client) {
 	client
-	
+		// I didn't actually do anything here, did I?
 		.end()
 	},
 

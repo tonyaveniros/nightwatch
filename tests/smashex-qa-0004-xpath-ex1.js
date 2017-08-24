@@ -50,6 +50,8 @@ module.exports = new Test({
 	"Load Google page": function (client) {
 	client
 		.url("http://www.tonyavn.com/index.php/home")
+		.customCommandExample()
+		
 	},
 	"Use xpath to check for specific list items": function (client) {
 	client

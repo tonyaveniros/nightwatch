@@ -56,7 +56,7 @@ module.exports = new Test({
 
 
 	},
-	"Check for input field and click in it": function (client) {
+	"Check for Weather.com forecast input field and click in it": function (client) {
 	client	
 			
 		.useCss().waitForElementPresent("input[value='Enter location ...']", this.timeout)
@@ -71,9 +71,11 @@ module.exports = new Test({
 		.pause(2500)
 		/* click the button to perform the search */
 		.useCss().click("input[value='Go']")
+		/* assert that an element contains some text */
+		.useXpath().assert.containsText("//strong[contains(text(),'Los Angeles')]", "Los Angeles")
 		/* using xpath to fin any element with the text. xpath can be very useful for 
 		finding text in a page something css selectors cannot as of this date do */
-		.useXpath().assert.containsText("//*[contains(text(),'" + this.city + "')]", this.city)
+		.useXpath().assert.containsText("//strong[contains(text(),'" + this.city + "')]", this.city)
 		.pause(1500)
 		.end()
 	},
